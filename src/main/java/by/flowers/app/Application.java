@@ -15,9 +15,9 @@ public class Application {
         AbstractFlower rose = new AbstractFlower(Kind.ROSE, "red", 50,
                 LocalDateTime.parse("2021-04-01T12:00:21.655"), 0.5);
         bouquet.add(rose);
-        AbstractFlower forgemenot = new AbstractFlower(Kind.FORGETMENOT, "violet", 40,
+        AbstractFlower forgetmenot = new AbstractFlower(Kind.FORGETMENOT, "violet", 40,
                 LocalDateTime.parse("2021-04-02T12:12:12.765"), 0.4);
-        bouquet.add(forgemenot);
+        bouquet.add(forgetmenot);
         AbstractFlower pion = new AbstractFlower(Kind.PION, "purple", 45,
                 LocalDateTime.parse("2021-04-05T12:12:12.765"), 0.45);
         bouquet.add(pion);
